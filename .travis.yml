@@ -7,7 +7,6 @@ script:
   - mvn install -DskipTests=false
   - mvn -e  test cobertura:cobertura coveralls:cobertura
   
-  
 services: mysql
 
 
